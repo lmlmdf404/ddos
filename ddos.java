@@ -52,10 +52,10 @@ public class Dos implements Runnable {
         int attakingAmoun = 0;
         Dos dos = new Dos(0, 0);
         Scanner in = new Scanner(System.in);
-        System.out.print("Điền link website: ");
+        System.out.print("URL website: ");
         url = in.nextLine();
         System.out.println("\n");
-        System.out.println("Starting Attack to url: " + url);
+        System.out.println(" url: " + url);
 
         String[] SUrl = url.split("://");
 
@@ -66,7 +66,7 @@ public class Dos implements Runnable {
             dos.sslCheckConnection(url);
         }
 
-        System.out.println("Setting DDoS By: Shadow Tak");
+        System.out.println("DDoS By: Lmlmdf404");
 
         System.out.print("Thread: ");
         String amount = in.nextLine();
